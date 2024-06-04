@@ -1,0 +1,34 @@
+.journal-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.input{
+    background-color: rgba(24, 24, 24, 1);
+    border: none;
+    border-bottom: 1px solid #333333;
+    font-family: "Source Sans 3", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.labels{
+    display: flex;
+
+    align-items: center;
+    gap: 20px;
+    min-width: 100px;
+}
+.invalid {
+    border: 1px solid red;
+    background-color: rgb(80, 24, 24)
+}
